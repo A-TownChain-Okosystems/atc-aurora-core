@@ -14,11 +14,11 @@ atc-aurora-core/
 ├── CHANGELOG.md
 ├── FILE_REGISTER.md
 └── src/
-    ├── aurora_core.atc                 Core — init, status, shutdown, lifecycle
-    ├── model_hub.atc                   Model hub — registration, routing, comparison
-    ├── llm_router.atc                  LLM router — request routing, fallback, load balancing
-    ├── agent_registry.atc              Agent registry — 12 agent types, capabilities
-    ├── config_manager.atc              Config — persistence, hot-reload, defaults
+    ├── aurora_core.atc    0 lines    Init, status, shutdown
+    ├── model_hub.atc    0 lines    Model registration & routing
+    ├── llm_router.atc    0 lines    Request routing, fallback, load balancing
+    ├── agent_registry.atc    0 lines    12 agent types
+    └── config_manager.atc    0 lines    Config & persistence
 ```
 
 ## Statistik
@@ -26,7 +26,7 @@ atc-aurora-core/
 | Metrik | Wert |
 |--------|------|
 | .atc Dateien | 5 |
-| Layer | L6 — AI Layer |
+| .atc Zeilen | 0 |
 | ATC-Standard | ATC-97 |
 | Sprint | 3.2 |
 | Status | 📋 GEPLANT |
